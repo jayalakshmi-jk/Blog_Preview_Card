@@ -43,8 +43,10 @@ body{
   border-radius: 13px;
   width: 100%;
 }
-.content h1{
-  font-size: 1.5rem;
+.content h1:hover{
+  color: #f4c842;
+  cursor: pointer;
+
 }
 
 .btn input{
@@ -54,11 +56,16 @@ body{
     border: none;
     border-radius: 5px;
     padding: 8px;
+   
 }
+.btn input:hover{
+      background-color: white;
+      transition: 1s;
+}
+
 .content p:nth-child(3){
   color: gray;
 }
-
 @media(max-width:768px){
 .whole{
     max-width: 384px;
