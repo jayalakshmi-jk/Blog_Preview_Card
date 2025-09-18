@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+ 
+  <style>
+   
+body{
+  background-color: #f4c842;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+  display: flex;
+  /* vertical-align: middle; */
+  /* flex-direction:s ; */
+   align-items: center;
+   gap: 10px;
+   font-weight: bolder;
+}
+.logo img{
+  width: 30px;
+}
+.whole{
+  background-color: white;
+  padding: 23px;
+  border-radius: 23px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  /* width: 200px; */
+  max-width: 28%;
+  margin: 8% auto;
+  border: 1px solid black;
+  box-shadow: 9px 9px 0px 0px black;
+}
+.article img{
+  border-radius: 13px;
+  width: 100%;
+}
+.content h1{
+  font-size: 1.5rem;
+}
+
+.btn input{
+    font-weight: bolder;
+    margin-top: 3%;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+.content p:nth-child(3){
+  color: gray;
+}
+  </style>
+</head>
+<body>
+<div class="whole">
+  <div class="article">
+    <img src="assets/images/illustration-article.svg" alt="illustration-article">
+  </div>
+
+  <div class="btn">
+    <input type="submit" value="Learning">
+  </div>
+
+  <div class="content">
+    <p>Published 21 Dec 2023</p>
+
+    <h1>HTML & CSS foundations</h1>
+
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  </div>
+
+  <div class="logo">
+    <img src="assets/images/image-avatar.webp" alt="image-avatar">
+    <span>Greg Hooper</span>
+  </div>
+</div>
+
+
+
+</body>
+</html>
